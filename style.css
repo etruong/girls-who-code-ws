@@ -108,15 +108,15 @@ main > div:nth-child(2) > div {
 }
 
 .blue {
-    background-color: skyblue;
+    background-color: blue;
 }
 
 .green {
-    background-color: greenyellow;
+    background-color: green;
 }
 
 .yellow {
-    background-color: gold;
+    background-color: yellow;
 }
 
 .lavender {

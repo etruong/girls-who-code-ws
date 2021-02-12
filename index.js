@@ -4,9 +4,9 @@
 
 /* Change Message of Note functionality */
 
-/* Change font color functionality */
-
 /* Change sender name on note */
+
+/* Change font color functionality */
 
 /* Dynamic generate color options */
 

@@ -1,0 +1,124 @@
+body {
+    background-color: pink;
+    font-family: 'Kalam', Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+main > div:nth-child(2) {
+    border: 5px lightpink solid;
+    border-radius: 10px;
+    padding: 20px;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.note-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 300px;
+    background-image: url('./img/ron-swanson.png');
+}
+
+button {
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Kalam', Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hotpink;
+}
+
+input {
+    font-family: 'Kalam', Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+main > div:nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.note-message {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.note-content {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.color-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.color-container > div {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.color-container > div:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: skyblue;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.yellow {
+    background-color: gold;
+}
+
+.lavender {
+    background-color: lavender;
+}
